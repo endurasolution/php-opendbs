@@ -1,0 +1,22 @@
+{
+    "name": "opendbs/client",
+    "description": "Official PHP Client Library for OpenDBS",
+    "type": "library",
+    "license": "CC-BY-NC-4.0",
+    "authors": [
+        {
+            "name": "OpenDBS Team",
+            "email": "support@opendbs.in"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OpenDBS\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
